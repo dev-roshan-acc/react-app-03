@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-
 import TableComp from "./components/TableComp";
 import FormComp from "./components/FormComp";
 
@@ -23,23 +21,3 @@ const App = () => {
 };
 
 export default App;
-
-// function App() {
-//   const data = [
-//     { id: 1, name: "John Doe" },
-//     { id: 2, name: "Victor Wayne" },
-//     { id: 3, name: "Jane Doe" },
-//   ];
-
-//   return (
-//     <div className="users">
-//       {data.map((user) => (
-//         <div className="user" key={user.id}>
-//           {user.name}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
-
-// export default App;
