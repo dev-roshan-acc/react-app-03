@@ -1,0 +1,173 @@
+[
+    {
+        "name": "fullname",
+        "title": "Fullname",
+        "type": "text"
+    },
+    
+    {
+        "name": "email",
+        "title": "Email",
+        "type": "email"
+    },
+    {
+        "name": "age",
+        "title": "Age",
+        "type": "number"
+    },
+    {
+        "name": "gender",
+        "title": "Gender",
+        "type": "radio",
+        "options": [
+            {
+                "name": "male",
+                "title": "Male",
+                "isDefault": true
+            },
+            {
+                "name": "female",
+                "title": "Female",
+                "isDefault": false
+            }
+        ]
+    },
+    {
+        "name": "address1",
+        "title": "Address Line1",
+        "type": "text"
+    },
+    {
+        "name": "address2",
+        "title": "Address Line2",
+        "type": "text"
+    },
+    {
+        "name": "password",
+        "title": "Password",
+        "type": "password"
+    },
+    {
+        "name": "bio",
+        "title": "Please write about yourself?",
+        "type": "textarea",
+        "rows": 4
+    },
+    {
+        "name": "country",
+        "title": "Select Country",
+        "type": "options",
+        "options": [
+            {
+                "isdefault": false,
+                "title": "Afghanistan",
+                "code": "AF"
+            },
+            {
+                "isdefault": false,
+                "title": "Åland Islands",
+                "code": "AX"
+            },
+            {
+                "isdefault": false,
+                "title": "Albania",
+                "code": "AL"
+            },
+            {
+                "isdefault": false,
+                "title": "Algeria",
+                "code": "DZ"
+            },
+            {
+                "isdefault": false,
+                "title": "American Samoa",
+                "code": "AS"
+            },
+            {
+                "isdefault": false,
+                "title": "AndorrA",
+                "code": "AD"
+            },
+            {
+                "isdefault": false,
+                "title": "Angola",
+                "code": "AO"
+            },
+            {
+                "isdefault": false,
+                "title": "Anguilla",
+                "code": "AI"
+            },
+            {
+                "isdefault": false,
+                "title": "Antarctica",
+                "code": "AQ"
+            },
+            {
+                "isdefault": false,
+                "title": "Antigua and Barbuda",
+                "code": "AG"
+            },
+            {
+                "isdefault": false,
+                "title": "Argentina",
+                "code": "AR"
+            },
+            {
+                "isdefault": false,
+                "title": "Armenia",
+                "code": "AM"
+            },
+            {
+                "isdefault": false,
+                "title": "Aruba",
+                "code": "AW"
+            },
+            {
+                "isdefault": false,
+                "title": "Australia",
+                "code": "AU"
+            },
+            {
+                "isdefault": false,
+                "title": "Austria",
+                "code": "AT"
+            },
+            {
+                "isdefault": false,
+                "title": "Azerbaijan",
+                "code": "AZ"
+            },
+            {
+                "isdefault": false,
+                "title": "Bahamas",
+                "code": "BS"
+            },
+            {
+                "isdefault": false,
+                "title": "Bahrain",
+                "code": "BH"
+            },
+            {
+                "isdefault": false,
+                "title": "Bangladesh",
+                "code": "BD"
+            },
+            {
+                "isdefault": false,
+                "title": "Barbados",
+                "code": "BB"
+            },
+            {
+                "isdefault": false,
+                "title": "Belarus",
+                "code": "BY"
+            },
+            {
+                "isdefault": true,
+                "title": "Nepal",
+                "code": "NP"
+            }
+        ]
+    }
+]
